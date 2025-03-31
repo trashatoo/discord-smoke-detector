@@ -2,7 +2,7 @@ import random
 import requests
 import time
 
-WEBHOOK_URL = "https://discord.com/api/webhooks/1356123526263865417/SKDaNu5lrK5OWMezwTZXapHZ3I6NcBoPT-h9SuMre_HIaHEEervQCf9SRW_U-n9ZwSfA"
+WEBHOOK_URL = "put your webhook url here from the discord integrations tab in the server settings"
 
 def send_webhook_message(message):
     data = {"content": message}
